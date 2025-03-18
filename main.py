@@ -27,9 +27,9 @@ while True:
                 print("Thanks for playing! Goodbye.")
                 break
             else:
-                print("Please enter yes or no, y or n only.")
+                ("Please enter yes or no, y or n only.")
 
-        if guess > number:
+        elif guess > number:
             print("Your guess is too high.")
         elif guess < number:
             print("Your guess is too low.")
